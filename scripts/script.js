@@ -514,7 +514,7 @@ $(document).ready(function() {
     });
 
     $(".tellScroll").click(function(){
-        if (isMobile==true) {
+        if (isMobile == true) {
             $('body').animate({
             scrollTop: $("#myPC").offset().top}, 'slow');
         }
@@ -528,10 +528,14 @@ $(document).ready(function() {
             $(".bar").addClass("barShow");
             $("#pledgeBar").addClass("selected");
         }
-        // else {
-        //     $('html,body').animate({
-        //     scrollTop: $("#myPC").offset().top}, 500);
-        // }
+        else {
+            if (isMobile == true) {
+                $('body').animate({
+                scrollTop: $("#myPC").offset().top}, 'slow');
+            }
+            $('html,body').animate({
+            scrollTop: $("#myPC").offset().top}, 500);
+        }
         firstTime = false;
         $(".menuMobile").addClass("menuMobileBack");
     });
