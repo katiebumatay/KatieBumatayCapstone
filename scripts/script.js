@@ -513,11 +513,17 @@ $(document).ready(function() {
         $('html,body').animate({
         scrollTop: $("#myPC").offset().top}, 'slow');
         if (firstTime == true) {
+            $(".info").addClass("infoShow");
             $(".bar").addClass("barShow");
             $("#pledgeBar").addClass("selected");
         }
         firstTime = false;
         $(".menuMobile").addClass("menuMobileBack");
+    });
+
+    $(".info").click(function(){
+        console.log("clicked info");
+        $(".info").removeClass("infoShow");
     });
 
 
