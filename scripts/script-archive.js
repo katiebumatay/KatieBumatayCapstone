@@ -35,7 +35,7 @@ function generateArticle() {
 
     if (listItemClicked == false) {
         check1(); check2(); check3();
-        articleLink = "https://katiebumatay.github.io/KatieBumatayCapstone/variables/" + sec + "/" + phraseNum + "/" + v + "/text.html";
+        articleLink = "https://katiebumatay.github.io/and-justice-for-all/variables/" + sec + "/" + phraseNum + "/" + v + "/text.html";
         if (checkV1 == true) {
             pledgeImg1.style.setProperty('--pledge-background-image1', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image1-small.jpg");
             pledgeImg2.style.setProperty('--pledge-background-image2', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image2-small.jpg");

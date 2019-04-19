@@ -271,11 +271,15 @@ h1 {
 	/*transition: 0.8s;*/
 }
 
+.fas:hover {
+	color: #6d6d6d;
+}
+
 
 .next {
 	position: fixed;
 	right: 0;
-	padding: 100px 25px 100px 100px;
+	padding: 100px 25px 0px 100px;
 	/*top: calc(30vh + 14pt);*/
 	top: calc(50vh - 90pt);
 	cursor: pointer;
@@ -290,7 +294,7 @@ h1 {
 .previous {
 	position: fixed;
 	left: 0;
-	padding: 100px 100px 100px 25px;
+	padding: 100px 100px 0px 25px;
 	/*top: calc(30vh + 14pt);*/
 	top: calc(50vh - 90pt);
 	cursor: pointer;
