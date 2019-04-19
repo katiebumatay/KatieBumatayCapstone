@@ -260,9 +260,9 @@ h3 {
 	color: black;
 }
 
-.stopScroll {
+/*.stopScroll {
 	overflow: hidden;
-}
+}*/
 
 .info {
 	z-index: 100;
@@ -2376,7 +2376,7 @@ h1:hover .cleartext {
 
 	.aboutText {
 		margin-top: 10px;
-		font-size: 11pt;
+		font-size: 10pt;
 		line-height: 1.5em;
 	}
 

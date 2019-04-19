@@ -398,7 +398,7 @@ function activateOverlay() {
         $(".section, .sectionTextContainer, .sectionHeader, .sectionText").addClass("hideSectionText");
         $(".exitOverlay").addClass("show");
         $(".variables-container, .variablesOverlay").addClass("show variablesToFront");
-        $("body").addClass("stopScroll");
+        // $("body").addClass("stopScroll");
         $(".articleBox").addClass("articleBoxPeek");
 }
 
@@ -408,7 +408,7 @@ function deactivateOverlay() {
     $(".section, .sectionTextContainer, .sectionHeader, .sectionText").removeClass("hideSectionText");
     $(".exitOverlay").removeClass("show");
     $(".variables-container, .variablesOverlay").removeClass("show variablesToFront");
-    $("body").removeClass("stopScroll");
+    // $("body").removeClass("stopScroll");
     $(".articleBox").removeClass("articleBoxPeek").removeClass("articleBoxExpand").removeClass("articleBoxBounce");
     $(".variablesOverlay").removeClass("readArticle");
     $(".imgContainer").removeClass(imgWidthTempClass);
@@ -476,7 +476,7 @@ $(document).ready(function() {
     $(".intro-container").click(function(){
         if (titleClicked == false) {
             titleClicked = true;
-            $("body").toggleClass("stopScroll");
+            // $("body").toggleClass("stopScroll");
             $(".aboutSection").toggleClass("showAbout").toggleClass("aboutPointerOn");
             $(".intro-container").toggleClass("clickedTitle");
             $(".intro-bg").toggleClass("clickedTitleBg");
@@ -642,14 +642,14 @@ $(document).ready(function() {
 
         addVariables();
         $(".variables-container").toggleClass("show");
-        $("body").toggleClass("stopScroll");
+        // $("body").toggleClass("stopScroll");
     });
 
 
     $(".phrase").mouseleave(function(){
         if (clicked == false) {
             $(".variables-container").toggleClass("show");
-            $("body").toggleClass("stopScroll");
+            // $("body").toggleClass("stopScroll");
             removeVariables();
         }
     });
