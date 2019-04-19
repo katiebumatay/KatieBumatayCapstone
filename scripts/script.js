@@ -514,17 +514,19 @@ $(document).ready(function() {
     });
 
     $(".tellScroll").click(function(){
+        $('html,body').animate({
+            scrollTop: $("#myPC").offset().top}, 'slow');
         if (firstTime == true) {
-            $('html,body').animate({
-            scrollTop: $("#myPC").offset().top}, 800);
+            // $('html,body').animate({
+            // scrollTop: $("#myPC").offset().top}, 800);
             $(".info").addClass("infoShow");
             $(".bar").addClass("barShow");
             $("#pledgeBar").addClass("selected");
         }
-        else {
-            $('html,body').animate({
-            scrollTop: $("#myPC").offset().top}, 500);
-        }
+        // else {
+        //     $('html,body').animate({
+        //     scrollTop: $("#myPC").offset().top}, 500);
+        // }
         firstTime = false;
         $(".menuMobile").addClass("menuMobileBack");
     });
