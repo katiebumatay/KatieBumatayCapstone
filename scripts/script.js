@@ -515,8 +515,11 @@ $(document).ready(function() {
 
     $(".tellScroll").click(function(){
         if (isMobile==true) {
-            $('body').animate({
-            scrollTop: $("#myPC").offset().top}, 'slow');
+            // $('body').animate({
+            // scrollTop: $("#myPC").offset().top}, 'slow');
+            setTimeout( function() {
+                $("#myPC").scrollTop(0)
+            }, 500 );
         }
         if (firstTime == true) {
             if (isMobile == false) {
