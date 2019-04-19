@@ -515,9 +515,8 @@ $(document).ready(function() {
 
     $(".tellScroll").click(function(){
         if (isMobile==true) {
-            // $('body').animate({
-            // scrollTop: $("#myPC").offset().top}, 'slow');
-           $('#myPC').scrollTop(scrollTop: 0, 0);
+            $('body').animate({
+            scrollTop: $("#myPC").offset().top}, 'slow');
         }
         if (firstTime == true) {
             if (isMobile == false) {
