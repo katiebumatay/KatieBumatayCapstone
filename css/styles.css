@@ -277,31 +277,55 @@ h3 {
 	transition: 0.8s;
 }
 
-.infoText {
+/*.infoText {
 	font-size: 11pt;
 	width: 50vw;
 	font-family: Heebo, sans-serif;
 	background-color: transparent;
-	/*position: absolute;*/
 	color: white;
 	text-align: left;
 	margin-left: 15vw;
 	opacity: 0.7;
-}
+}*/
+
 
 .infoClickBox {
-	margin-top: 25vh;
-	margin-left: 15vw;
+	position: relative;
+	top: 25vh;
+	left: 15vw;
 	width: 50vw;
 	height: 35vh;
-	background-color: #eeeeee;
+	background-color: white;
 	opacity: 0.1;
 	/*border: 3px solid white;*/
 }
 
+.infoText {
+	position: absolute;
+	font-size: 14pt;
+	line-height: 14pt;
+	width: 100%;
+	font-family: Heebo, sans-serif;
+	background-color: transparent;
+	color: white;
+	text-align: left;
+	margin-left: 0;
+	opacity: 1;
+}
+
+.infoTextTop {
+	bottom: 100%;
+	opacity: 1;
+}
+
+.infoTextBottom {
+	top: 100%;
+	opacity: 1;
+}
+
 .infoShow {
 	transition: 0.8s;
-	opacity: 0.95;
+	opacity: 0.9;
 	visibility: visible;
 }
 
@@ -2317,16 +2341,18 @@ h1:hover .cleartext {
 	}
 
 	.infoClickBox {
-		margin-top: 25vh;
-		margin-left: 5vw;
+		/*position: fixed;*/
+		top: 25vh;
+		left: 5vw;
 		width: 90vw;
 		height: 35vh;
+		cursor: pointer;
 	}
 
 
 	.infoText {
-		width: 80vw;
-		margin-left: 10vw;
+		width: 100%;
+		line-height: 18pt;
 	}
 
 	.aboutTextContainer {

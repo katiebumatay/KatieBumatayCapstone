@@ -443,6 +443,10 @@ $(document).ready(function() {
 
     checkMobile();
 
+    if (isMobile == true) {
+        $(".infoTextTop p").text("Click on the underlined text to explore different perspectives of each phrase.");
+    }
+
 
     $('html,body').animate({
         scrollTop: $("body").offset().top});
