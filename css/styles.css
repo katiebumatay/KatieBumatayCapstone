@@ -274,7 +274,7 @@ h3 {
 	background-color: #212121;
 	opacity: 0;
 	visibility: hidden;
-	transition: 0.8s;
+	transition: 0.5s;
 }
 
 /*.infoText {
@@ -326,7 +326,7 @@ h3 {
 }
 
 .infoShow {
-	transition: 0.8s;
+	transition: 0.5s;
 	opacity: 0.9;
 	visibility: visible;
 }

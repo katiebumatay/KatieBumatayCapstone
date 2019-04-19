@@ -458,11 +458,13 @@ h2 {
 		height: calc(100% + 1px);
 		opacity: 0;
 		pointer-events: none;
+		transition: 0.5s;
 	}
 
 	.itemsBoxShow {
 		opacity: 1;
 		pointer-events: auto;
+		transition: 0.5s;
 	}
 
 
