@@ -2316,6 +2316,19 @@ h1:hover .cleartext {
 		transition-timing-function: ease;
 	}
 
+	.infoClickBox {
+		margin-top: 25vh;
+		margin-left: 5vw;
+		width: 90vw;
+		height: 35vh;
+	}
+
+
+	.infoText {
+		width: 80vw;
+		margin-left: 10vw;
+	}
+
 	.aboutTextContainer {
 		margin-top: 20vh;
 		left: 10%;
