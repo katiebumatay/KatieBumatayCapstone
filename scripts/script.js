@@ -514,11 +514,16 @@ $(document).ready(function() {
     });
 
     $(".tellScroll").click(function(){
-        $('html,body').animate({
+        if (isMobile==true) {
+            $('body').animate({
             scrollTop: $("#myPC").offset().top}, 'slow');
+        }
         if (firstTime == true) {
-            // $('html,body').animate({
-            // scrollTop: $("#myPC").offset().top}, 800);
+            if (isMobile == false) {
+                $('html,body').animate({
+                scrollTop: $("#myPC").offset().top}, 800);
+            }
+            
             $(".info").addClass("infoShow");
             $(".bar").addClass("barShow");
             $("#pledgeBar").addClass("selected");
