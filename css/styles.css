@@ -2317,7 +2317,7 @@ h1:hover .cleartext {
 	}
 
 	.aboutTextContainer {
-		margin-top: 25vh;
+		margin-top: 20vh;
 		left: 10%;
 		width: 80%;
 	}
@@ -2345,7 +2345,7 @@ h1:hover .cleartext {
 	}
 
 	.tellScroll {
-		bottom: 20px;
+		bottom: 50px;
 		left: 10%;
 		/*left: 10%;*/
 	}
