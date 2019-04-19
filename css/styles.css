@@ -296,7 +296,8 @@ h3 {
 	width: 50vw;
 	height: 35vh;
 	background-color: white;
-	opacity: 0.1;
+	opacity: 0.3;
+	cursor: pointer;
 	/*border: 3px solid white;*/
 }
 
@@ -311,6 +312,7 @@ h3 {
 	text-align: left;
 	margin-left: 0;
 	opacity: 1;
+	cursor: default;
 }
 
 .infoTextTop {
@@ -2346,13 +2348,20 @@ h1:hover .cleartext {
 		left: 5vw;
 		width: 90vw;
 		height: 35vh;
-		cursor: pointer;
 	}
 
 
 	.infoText {
 		width: 100%;
-		line-height: 18pt;
+		line-height: 16pt;
+	}
+
+	.infoTextTop {
+		top: 100%;
+	}
+
+	.infoTextBottom {
+		margin-top: 50pt;
 	}
 
 	.aboutTextContainer {
