@@ -1,6 +1,6 @@
 :root {
 	--myImg-background-image: url(../variables/1-pledge/1/1/image1-small.jpg);
-	--introImg1-background-image: url(../images/variables/flag.gif);
+	/*--introImg1-background-image: url(../images/variables/flag.gif);*/
 	/*--introImg2-background-image: url(../images/variables/2.jpg);*/
 }
 
@@ -493,7 +493,7 @@ h3 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
-	background-attachment: inherit;
+	/*background-attachment: inherit;*/
 }
 
 .imgOverlay {
@@ -892,11 +892,12 @@ h3 {
 }
 
 #img1 {
-	background: var(--introImg1-background-image);
+	background: url(../images/variables/flag.gif);
+	/*background: var(--introImg1-background-image);*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
-	background-attachment: inherit;
+	/*background-attachment: inherit;*/
 	/*background-size: cover;
 	background-position: 50% 50%;*/
 }
