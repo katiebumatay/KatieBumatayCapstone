@@ -488,7 +488,8 @@ h3 {
  	margin-left: auto;
  	margin-right: auto;
  	vertical-align: middle;
-	background-image: var(--myImg-background-image);
+	/*background-image: var(--myImg-background-image);*/
+	background: var(--myImg-background-image);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -890,7 +891,10 @@ h3 {
 }
 
 #img1 {
-	background-image: var(--introImg1-background-image);
+	background: var(--introImg1-background-image);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
 	/*background-size: cover;
 	background-position: 50% 50%;*/
 }
@@ -2420,12 +2424,16 @@ h1:hover .cleartext {
 	}
 
 	.next {
-		top: calc(100vh - 48pt - 80px);
+		top: 75vh;
+		/*top: calc(100vh - 48pt - 80px);*/
+		/*bottom: 20vh;*/
 		padding: 60px 20px 80px 30px;
 	}
 
 	.previous {
-		top: calc(100vh - 48pt - 80px);
+		top: 75vh;
+		/*top: calc(100vh - 48pt - 80px);*/
+		/*bottom: 20vh;*/
 		padding: 60px 30px 80px 20px;
 	}
 
