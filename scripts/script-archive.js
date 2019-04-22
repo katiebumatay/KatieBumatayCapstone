@@ -10,6 +10,10 @@ var originalArticle;
 
 var isMobile = false;
 
+var pledgeImgClass1; var pledgeImgClass2;
+var decImgClass1; var decImgClass2;
+var constImgClass1; var constImgClass2;
+
 
 function checkMobile(){
     if ($(".itemsBox").css("opacity") == "0" ){
@@ -37,20 +41,32 @@ function generateArticle() {
         check1(); check2(); check3();
         articleLink = "https://katiebumatay.github.io/and-justice-for-all/variables/" + sec + "/" + phraseNum + "/" + v + "/text.html";
         if (checkV1 == true) {
-            pledgeImg1.style.setProperty('--pledge-background-image1', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image1-small.jpg");
-            pledgeImg2.style.setProperty('--pledge-background-image2', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image2-small.jpg");
+            // pledgeImg1.style.setProperty('--pledge-background-image1', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image1-small.jpg");
+            // pledgeImg2.style.setProperty('--pledge-background-image2', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image2-small.jpg");
+            pledgeImgClass1 = "image-" + sec + "-" + phraseNum + "-" + v + "-1"
+            pledgeImgClass2 = "image-" + sec + "-" + phraseNum + "-" + v + "-2";
+            $("#pledgeImg1").addClass(pledgeImgClass1);
+            $("#pledgeImg2").addClass(pledgeImgClass2);
             $("#pledgeText").load(articleLink);
         }
 
         else if (checkV2 == true) {
-            declarationImg1.style.setProperty('--declaration-background-image1', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image1-small.jpg");
-            declarationImg2.style.setProperty('--declaration-background-image2', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image2-small.jpg");
+            // declarationImg1.style.setProperty('--declaration-background-image1', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image1-small.jpg");
+            // declarationImg2.style.setProperty('--declaration-background-image2', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image2-small.jpg");
+            decImgClass1 = "image-" + sec + "-" + phraseNum + "-" + v + "-1"
+            decImgClass2 = "image-" + sec + "-" + phraseNum + "-" + v + "-2";
+            $("#declarationImg1").addClass(decImgClass1);
+            $("#declarationImg2").addClass(decImgClass2);
             $("#declarationText").load(articleLink);
         }
 
         else if (checkV3 == true) {
-            constitutionImg1.style.setProperty('--constitution-background-image1', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image1-small.jpg");
-            constitutionImg2.style.setProperty('--constitution-background-image2', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image2-small.jpg");
+            // constitutionImg1.style.setProperty('--constitution-background-image1', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image1-small.jpg");
+            // constitutionImg2.style.setProperty('--constitution-background-image2', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image2-small.jpg");
+            constImgClass1 = "image-" + sec + "-" + phraseNum + "-" + v + "-1"
+            constImgClass2 = "image-" + sec + "-" + phraseNum + "-" + v + "-2";
+            $("#constitutionImg1").addClass(constImgClass1);
+            $("#constitutionImg2").addClass(constImgClass2);
             $("#constitutionText").load(articleLink);
         }
 
@@ -71,6 +87,15 @@ function hideStuff() {
     $(".articleContainer, .images-container").removeClass("showImgArticle");
 }
 
+function clearImages() {
+    $("#pledgeImg1").removeClass(pledgeImgClass1);
+    $("#pledgeImg2").removeClass(pledgeImgClass2);
+    $("#declarationImg1").removeClass(decImgClass1);
+    $("#declarationImg2").removeClass(decImgClass2);
+    $("#constitutionImg1").removeClass(constImgClass1);
+    $("#constitutionImg2").removeClass(constImgClass2);
+}
+
 
 $(document).ready(function() {
 
@@ -87,6 +112,7 @@ $(document).ready(function() {
 
         check1();
         check2();
+        clearImages();
 
         if(checkV1 == true) {
             console.log("in view1");
@@ -114,6 +140,7 @@ $(document).ready(function() {
 
         check2();
         check3();
+        clearImages();
 
 
         if (checkV2 == true) {
@@ -142,6 +169,7 @@ $(document).ready(function() {
         $("#declarationBar, #constitutionBar").removeClass("selected");
         $(".previous").addClass("hideArrow");
         $(".next").removeClass("hideArrow");
+        clearImages();
 
     });
 
@@ -151,6 +179,7 @@ $(document).ready(function() {
         $("#pledgeBar, #constitutionBar").removeClass("selected");
         $(".previous").removeClass("hideArrow");
         $(".next").removeClass("hideArrow");
+        clearImages();
     });
 
      $("#constitutionBar").click(function(){
@@ -159,6 +188,7 @@ $(document).ready(function() {
         $("#pledgeBar, #declarationBar").removeClass("selected");
         $(".previous").removeClass("hideArrow");
         $(".next").addClass("hideArrow");
+        clearImages();
     });
 
      $("li").mouseover(function() {
@@ -172,6 +202,7 @@ $(document).ready(function() {
         if (listItemClicked == false) {
             hideStuff();
             $(this).removeClass("thisLiHover");
+            clearImages();
         } 
      });
 
@@ -203,6 +234,7 @@ $(document).ready(function() {
             $(".next, .previous").removeClass("noArrow");
             $(".itemsBox").removeClass("itemsBoxShow");
             $(".exitOverlay").removeClass("exitOverlayShow");
+            clearImages();
      });
 
      // $(".fas").click(function() {
@@ -215,28 +247,6 @@ $(document).ready(function() {
      // });
 
 
-
-    $(".goToPledge").click(function() {
-        // $('html,body').animate({
-        // scrollTop: $("#pledge").offset().top},
-        // 'slow');
-
-        $('html,body').animate({
-        scrollTop: $("#pledge").offset().top}, 'slow');
-
-    });
-
-    $(".goToDec").click(function() {
-        $('html,body').animate({
-        scrollTop: $("#declaration").offset().top}, 'slow');
-
-    });
-
-    // $("li").click(function() {
-    //     // console.log("clicked list item");
-    //     $(".list-container").toggleClass("showArticle");
-
-    // });
 
 
     $(".1-pledge-1-1").mouseenter(function(){ sec = "1-pledge"; phraseNum = "1"; v = 1; generateArticle();});
