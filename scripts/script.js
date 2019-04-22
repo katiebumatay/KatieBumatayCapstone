@@ -390,7 +390,7 @@ function removeVariables() {
         $(".caption").removeClass(captionColorClass).removeClass(captionPlaceClass);
         $(".fa-sort-up").removeClass(textColorClass);
         if (isMobile == true) {
-            $(".loadImage").removeClass(mobileImgClass);
+            $("#loadImage").removeClass(mobileImgClass);
         }
         // $(".readMore, .articleText a").removeClass(darkColorText);
         // $(".readMore").removeClass(textColorClass).removeClass(bgColorClass);
@@ -443,7 +443,7 @@ function chooseStory() {
     }
     else if (isMobile == true) {
         mobileImgClass = "image-" + phraseNum + "-" + v + "-" + i;
-        $(".loadImage").addClass(mobileImgClass);
+        $("#loadImage").addClass(mobileImgClass);
     }
     
 }
