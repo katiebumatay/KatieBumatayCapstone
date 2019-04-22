@@ -389,6 +389,9 @@ function removeVariables() {
         $(".phraseHeadingContainer").removeClass(phrasePlaceClass).removeClass(phraseWidthClass);;
         $(".caption").removeClass(captionColorClass).removeClass(captionPlaceClass);
         $(".fa-sort-up").removeClass(textColorClass);
+        if (isMobile == true) {
+            $(".loadImage").removeClass(mobileImgClass);
+        }
         // $(".readMore, .articleText a").removeClass(darkColorText);
         // $(".readMore").removeClass(textColorClass).removeClass(bgColorClass);
 
