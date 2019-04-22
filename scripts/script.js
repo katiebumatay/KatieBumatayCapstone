@@ -389,9 +389,9 @@ function removeVariables() {
         $(".phraseHeadingContainer").removeClass(phrasePlaceClass).removeClass(phraseWidthClass);;
         $(".caption").removeClass(captionColorClass).removeClass(captionPlaceClass);
         $(".fa-sort-up").removeClass(textColorClass);
-        if (isMobile == true) {
+        // if (isMobile == true) {
             $("#loadImage").removeClass(mobileImgClass);
-        }
+        // }
         // $(".readMore, .articleText a").removeClass(darkColorText);
         // $(".readMore").removeClass(textColorClass).removeClass(bgColorClass);
 
@@ -438,13 +438,13 @@ function chooseStory() {
     captionLink = "https://katiebumatay.github.io/and-justice-for-all/variables/" + sec + "/" + phraseNum + "/" + v + "/text.html p:first-child";
     $(".caption").load(captionLink);
     i = Math.floor(Math.random() * 2) + 1;
-    if (isMobile == false) {
-        loadImage.style.setProperty('--myImg-background-image', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image" + i + "-small.jpg");
-    }
-    else if (isMobile == true) {
-        mobileImgClass = "image-" + phraseNum + "-" + v + "-" + i;
+    // if (isMobile == false) {
+    //     loadImage.style.setProperty('--myImg-background-image', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image" + i + "-small.jpg");
+    // }
+    // else if (isMobile == true) {
+        mobileImgClass = "image-" + sec + "-" + phraseNum + "-" + v + "-" + i;
         $("#loadImage").addClass(mobileImgClass);
-    }
+    // }
     
 }
 
