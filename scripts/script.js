@@ -7,6 +7,8 @@
     var iL; var imgLeftClass;
     var imgPlaceClass;
 
+    var mobileImgClass;
+
     var pT; var phraseTopClass;
     var pL; var phraseLeftClass;
     var pW; var phraseWidthClass;
@@ -433,8 +435,16 @@ function chooseStory() {
     captionLink = "https://katiebumatay.github.io/and-justice-for-all/variables/" + sec + "/" + phraseNum + "/" + v + "/text.html p:first-child";
     $(".caption").load(captionLink);
     i = Math.floor(Math.random() * 2) + 1;
-    loadImage.style.setProperty('--myImg-background-image', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image" + i + "-small.jpg");
+    if (isMobile == false) {
+        loadImage.style.setProperty('--myImg-background-image', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image" + i + "-small.jpg");
+    }
+    else if (isMobile == true) {
+        mobileImgClass = "image-" + phraseNum + "-" + v + "-" + i;
+        $(".loadImage").addClass(mobileImgClass);
+    }
+    
 }
+
 
 
 
