@@ -2484,6 +2484,13 @@ h1:hover .cleartext {
 		/*width: 100%;*/
 	}
 
+	#loadImage {
+		background: transparent;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+
 	.image-1-1-1 {
 		background: url(../variables/1-pledge/1/1/image1-small.jpg);
 	}
