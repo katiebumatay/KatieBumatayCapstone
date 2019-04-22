@@ -1924,357 +1924,269 @@ h1:hover .cleartext {
 }
 
 
-.image-1-pledge-1-1-1 {
-	background: url(../variables/1-pledge/1/1/image1-small.jpg) !important;
-}
+.image-1-pledge-1-1-1 {background: url(../variables/1-pledge/1/1/image1-small.jpg) !important;}
+.image-1-pledge-1-1-2 {background: url(../variables/1-pledge/1/1/image2-small.jpg) !important;}
+.image-1-pledge-1-2-1 {background: url(../variables/1-pledge/1/2/image1-small.jpg) !important;}
+.image-1-pledge-1-2-2 {background: url(../variables/1-pledge/1/2/image2-small.jpg) !important;}
+.image-1-pledge-1-3-1 {background: url(../variables/1-pledge/1/3/image1-small.jpg) !important;}
+.image-1-pledge-1-3-2 {background: url(../variables/1-pledge/1/3/image2-small.jpg) !important;}
+.image-1-pledge-1-4-1 {background: url(../variables/1-pledge/1/4/image1-small.jpg) !important;}
+.image-1-pledge-1-4-2 {background: url(../variables/1-pledge/1/4/image2-small.jpg) !important;}
+.image-1-pledge-1-5-1 {background: url(../variables/1-pledge/1/5/image1-small.jpg) !important;}
+.image-1-pledge-1-5-2 {background: url(../variables/1-pledge/1/5/image2-small.jpg) !important;}
+.image-1-pledge-2-1-1 {background: url(../variables/1-pledge/2/1/image1-small.jpg) !important;}
+.image-1-pledge-2-1-2 {background: url(../variables/1-pledge/2/1/image2-small.jpg) !important;}
+.image-1-pledge-2-2-1 {background: url(../variables/1-pledge/2/2/image1-small.jpg) !important;}
+.image-1-pledge-2-2-2 {background: url(../variables/1-pledge/2/2/image2-small.jpg) !important;}
+.image-1-pledge-2-3-1 {background: url(../variables/1-pledge/2/3/image1-small.jpg) !important;}
+.image-1-pledge-2-3-2 {background: url(../variables/1-pledge/2/3/image2-small.jpg) !important;}
+.image-1-pledge-2-4-1 {background: url(../variables/1-pledge/2/4/image1-small.jpg) !important;}
+.image-1-pledge-2-4-2 {background: url(../variables/1-pledge/2/4/image2-small.jpg) !important;}
+.image-1-pledge-2-5-1 {background: url(../variables/1-pledge/2/5/image1-small.jpg) !important;}
+.image-1-pledge-2-5-2 {background: url(../variables/1-pledge/2/5/image2-small.jpg) !important;}
+.image-1-pledge-2-6-1 {background: url(../variables/1-pledge/2/6/image1-small.jpg) !important;}
+.image-1-pledge-2-6-2 {background: url(../variables/1-pledge/2/6/image2-small.jpg) !important;}
+.image-1-pledge-2-7-1 {background: url(../variables/1-pledge/2/7/image1-small.jpg) !important;}
+.image-1-pledge-2-7-2 {background: url(../variables/1-pledge/2/7/image2-small.jpg) !important;}
+.image-1-pledge-3-1-1 {background: url(../variables/1-pledge/3/1/image1-small.jpg) !important;}
+.image-1-pledge-3-1-2 {background: url(../variables/1-pledge/3/1/image2-small.jpg) !important;}
+.image-1-pledge-3-2-1 {background: url(../variables/1-pledge/3/2/image1-small.jpg) !important;}
+.image-1-pledge-3-2-2 {background: url(../variables/1-pledge/3/2/image2-small.jpg) !important;}
+.image-1-pledge-3-3-1 {background: url(../variables/1-pledge/3/3/image1-small.jpg) !important;}
+.image-1-pledge-3-3-2 {background: url(../variables/1-pledge/3/3/image2-small.jpg) !important;}
+.image-1-pledge-3-4-1 {background: url(../variables/1-pledge/3/4/image1-small.jpg) !important;}
+.image-1-pledge-3-4-2 {background: url(../variables/1-pledge/3/4/image2-small.jpg) !important;}
+.image-1-pledge-3-5-1 {background: url(../variables/1-pledge/3/5/image1-small.jpg) !important;}
+.image-1-pledge-3-5-2 {background: url(../variables/1-pledge/3/5/image2-small.jpg) !important;}
+.image-1-pledge-4-1-1 {background: url(../variables/1-pledge/4/1/image1-small.jpg) !important;}
+.image-1-pledge-4-1-2 {background: url(../variables/1-pledge/4/1/image2-small.jpg) !important;}
+.image-1-pledge-4-2-1 {background: url(../variables/1-pledge/4/2/image1-small.jpg) !important;}
+.image-1-pledge-4-2-2 {background: url(../variables/1-pledge/4/2/image2-small.jpg) !important;}
+.image-1-pledge-4-3-1 {background: url(../variables/1-pledge/4/3/image1-small.jpg) !important;}
+.image-1-pledge-4-3-2 {background: url(../variables/1-pledge/4/3/image2-small.jpg) !important;}
+.image-1-pledge-5-1-1 {background: url(../variables/1-pledge/5/1/image1-small.jpg) !important;}
+.image-1-pledge-5-1-2 {background: url(../variables/1-pledge/5/1/image2-small.jpg) !important;}
+.image-1-pledge-5-2-1 {background: url(../variables/1-pledge/5/2/image1-small.jpg) !important;}
+.image-1-pledge-5-2-2 {background: url(../variables/1-pledge/5/2/image2-small.jpg) !important;}
+.image-1-pledge-5-3-1 {background: url(../variables/1-pledge/5/3/image1-small.jpg) !important;}
+.image-1-pledge-5-3-2 {background: url(../variables/1-pledge/5/3/image2-small.jpg) !important;}
+.image-1-pledge-5-4-1 {background: url(../variables/1-pledge/5/4/image1-small.jpg) !important;}
+.image-1-pledge-5-4-2 {background: url(../variables/1-pledge/5/4/image2-small.jpg) !important;}
+.image-1-pledge-5-5-1 {background: url(../variables/1-pledge/5/5/image1-small.jpg) !important;}
+.image-1-pledge-5-5-2 {background: url(../variables/1-pledge/5/5/image2-small.jpg) !important;}
+.image-1-pledge-5-6-1 {background: url(../variables/1-pledge/5/6/image1-small.jpg) !important;}
+.image-1-pledge-5-6-2 {background: url(../variables/1-pledge/5/6/image2-small.jpg) !important;}
+.image-1-pledge-5-7-1 {background: url(../variables/1-pledge/5/7/image1-small.jpg) !important;}
+.image-1-pledge-5-7-2 {background: url(../variables/1-pledge/5/7/image2-small.jpg) !important;}
+.image-1-pledge-6-1-1 {background: url(../variables/1-pledge/6/1/image1-small.jpg) !important;}
+.image-1-pledge-6-1-2 {background: url(../variables/1-pledge/6/1/image2-small.jpg) !important;}
+.image-1-pledge-6-2-1 {background: url(../variables/1-pledge/6/2/image1-small.jpg) !important;}
+.image-1-pledge-6-2-2 {background: url(../variables/1-pledge/6/2/image2-small.jpg) !important;}
+.image-1-pledge-6-3-1 {background: url(../variables/1-pledge/6/3/image1-small.jpg) !important;}
+.image-1-pledge-6-3-2 {background: url(../variables/1-pledge/6/3/image2-small.jpg) !important;}
+.image-1-pledge-6-4-1 {background: url(../variables/1-pledge/6/4/image1-small.jpg) !important;}
+.image-1-pledge-6-4-2 {background: url(../variables/1-pledge/6/4/image2-small.jpg) !important;}
+.image-1-pledge-6-5-1 {background: url(../variables/1-pledge/6/5/image1-small.jpg) !important;}
+.image-1-pledge-6-5-2 {background: url(../variables/1-pledge/6/5/image2-small.jpg) !important;}
+.image-1-pledge-6-6-1 {background: url(../variables/1-pledge/6/6/image1-small.jpg) !important;}
+.image-1-pledge-6-6-2 {background: url(../variables/1-pledge/6/6/image2-small.jpg) !important;}
+.image-1-pledge-7-1-1 {background: url(../variables/1-pledge/7/1/image1-small.jpg) !important;}
+.image-1-pledge-7-1-2 {background: url(../variables/1-pledge/7/1/image2-small.jpg) !important;}
+.image-1-pledge-7-2-1 {background: url(../variables/1-pledge/7/2/image1-small.jpg) !important;}
+.image-1-pledge-7-2-2 {background: url(../variables/1-pledge/7/2/image2-small.jpg) !important;}
+.image-1-pledge-7-3-1 {background: url(../variables/1-pledge/7/3/image1-small.jpg) !important;}
+.image-1-pledge-7-3-2 {background: url(../variables/1-pledge/7/3/image2-small.jpg) !important;}
+.image-1-pledge-7-4-1 {background: url(../variables/1-pledge/7/4/image1-small.jpg) !important;}
+.image-1-pledge-7-4-2 {background: url(../variables/1-pledge/7/4/image2-small.jpg) !important;}
+.image-1-pledge-7-5-1 {background: url(../variables/1-pledge/7/5/image1-small.jpg) !important;}
+.image-1-pledge-7-5-2 {background: url(../variables/1-pledge/7/5/image2-small.jpg) !important;}
+.image-1-pledge-8-1-1 {background: url(../variables/1-pledge/8/1/image1-small.jpg) !important;}
+.image-1-pledge-8-1-2 {background: url(../variables/1-pledge/8/1/image2-small.jpg) !important;}
+.image-1-pledge-8-2-1 {background: url(../variables/1-pledge/8/2/image1-small.jpg) !important;}
+.image-1-pledge-8-2-2 {background: url(../variables/1-pledge/8/2/image2-small.jpg) !important;}
+.image-1-pledge-8-3-1 {background: url(../variables/1-pledge/8/3/image1-small.jpg) !important;}
+.image-1-pledge-8-3-2 {background: url(../variables/1-pledge/8/3/image2-small.jpg) !important;}
+.image-1-pledge-8-4-1 {background: url(../variables/1-pledge/8/4/image1-small.jpg) !important;}
+.image-1-pledge-8-4-2 {background: url(../variables/1-pledge/8/4/image2-small.jpg) !important;}
+.image-1-pledge-8-5-1 {background: url(../variables/1-pledge/8/5/image1-small.jpg) !important;}
+.image-1-pledge-8-5-2 {background: url(../variables/1-pledge/8/5/image2-small.jpg) !important;}
+.image-1-pledge-8-6-1 {background: url(../variables/1-pledge/8/6/image1-small.jpg) !important;}
+.image-1-pledge-8-6-2 {background: url(../variables/1-pledge/8/6/image2-small.jpg) !important;}
+
+.image-2-declaration-1-1-1 {background: url(../variables/2-declaration/1/1/image1-small.jpg) !important;}
+.image-2-declaration-1-1-2 {background: url(../variables/2-declaration/1/1/image2-small.jpg) !important;}
+.image-2-declaration-1-2-1 {background: url(../variables/2-declaration/1/2/image1-small.jpg) !important;}
+.image-2-declaration-1-2-2 {background: url(../variables/2-declaration/1/2/image2-small.jpg) !important;}
+.image-2-declaration-1-3-1 {background: url(../variables/2-declaration/1/3/image1-small.jpg) !important;}
+.image-2-declaration-1-3-2 {background: url(../variables/2-declaration/1/3/image2-small.jpg) !important;}
+.image-2-declaration-1-4-1 {background: url(../variables/2-declaration/1/4/image1-small.jpg) !important;}
+.image-2-declaration-1-4-2 {background: url(../variables/2-declaration/1/4/image2-small.jpg) !important;}
+.image-2-declaration-1-5-1 {background: url(../variables/2-declaration/1/5/image1-small.jpg) !important;}
+.image-2-declaration-1-5-2 {background: url(../variables/2-declaration/1/5/image2-small.jpg) !important;}
+.image-2-declaration-1-6-1 {background: url(../variables/2-declaration/1/6/image1-small.jpg) !important;}
+.image-2-declaration-1-6-2 {background: url(../variables/2-declaration/1/6/image2-small.jpg) !important;}
+.image-2-declaration-2-1-1 {background: url(../variables/2-declaration/2/1/image1-small.jpg) !important;}
+.image-2-declaration-2-1-2 {background: url(../variables/2-declaration/2/1/image2-small.jpg) !important;}
+.image-2-declaration-2-2-1 {background: url(../variables/2-declaration/2/2/image1-small.jpg) !important;}
+.image-2-declaration-2-2-2 {background: url(../variables/2-declaration/2/2/image2-small.jpg) !important;}
+.image-2-declaration-2-3-1 {background: url(../variables/2-declaration/2/3/image1-small.jpg) !important;}
+.image-2-declaration-2-3-2 {background: url(../variables/2-declaration/2/3/image2-small.jpg) !important;}
+.image-2-declaration-2-4-1 {background: url(../variables/2-declaration/2/4/image1-small.jpg) !important;}
+.image-2-declaration-2-4-2 {background: url(../variables/2-declaration/2/4/image2-small.jpg) !important;}
+.image-2-declaration-2-5-1 {background: url(../variables/2-declaration/2/5/image1-small.jpg) !important;}
+.image-2-declaration-2-5-2 {background: url(../variables/2-declaration/2/5/image2-small.jpg) !important;}
+.image-2-declaration-3-1-1 {background: url(../variables/2-declaration/3/1/image1-small.jpg) !important;}
+.image-2-declaration-3-1-2 {background: url(../variables/2-declaration/3/1/image2-small.jpg) !important;}
+.image-2-declaration-3-2-1 {background: url(../variables/2-declaration/3/2/image1-small.jpg) !important;}
+.image-2-declaration-3-2-2 {background: url(../variables/2-declaration/3/2/image2-small.jpg) !important;}
+.image-2-declaration-3-3-1 {background: url(../variables/2-declaration/3/3/image1-small.jpg) !important;}
+.image-2-declaration-3-3-2 {background: url(../variables/2-declaration/3/3/image2-small.jpg) !important;}
+.image-2-declaration-3-4-1 {background: url(../variables/2-declaration/3/4/image1-small.jpg) !important;}
+.image-2-declaration-3-4-2 {background: url(../variables/2-declaration/3/4/image2-small.jpg) !important;}
+.image-2-declaration-3-5-1 {background: url(../variables/2-declaration/3/5/image1-small.jpg) !important;}
+.image-2-declaration-3-5-2 {background: url(../variables/2-declaration/3/5/image2-small.jpg) !important;}
+.image-2-declaration-3-6-1 {background: url(../variables/2-declaration/3/6/image1-small.jpg) !important;}
+.image-2-declaration-3-6-2 {background: url(../variables/2-declaration/3/6/image2-small.jpg) !important;}
+.image-2-declaration-3-7-1 {background: url(../variables/2-declaration/3/7/image1-small.jpg) !important;}
+.image-2-declaration-3-7-2 {background: url(../variables/2-declaration/3/7/image2-small.jpg) !important;}
+.image-2-declaration-3-8-1 {background: url(../variables/2-declaration/3/8/image1-small.jpg) !important;}
+.image-2-declaration-3-8-2 {background: url(../variables/2-declaration/3/8/image2-small.jpg) !important;}
+.image-2-declaration-4-1-1 {background: url(../variables/2-declaration/4/1/image1-small.jpg) !important;}
+.image-2-declaration-4-1-2 {background: url(../variables/2-declaration/4/1/image2-small.jpg) !important;}
+.image-2-declaration-4-2-1 {background: url(../variables/2-declaration/4/2/image1-small.jpg) !important;}
+.image-2-declaration-4-2-2 {background: url(../variables/2-declaration/4/2/image2-small.jpg) !important;}
+.image-2-declaration-4-3-1 {background: url(../variables/2-declaration/4/3/image1-small.jpg) !important;}
+.image-2-declaration-4-3-2 {background: url(../variables/2-declaration/4/3/image2-small.jpg) !important;}
+.image-2-declaration-4-4-1 {background: url(../variables/2-declaration/4/4/image1-small.jpg) !important;}
+.image-2-declaration-4-4-2 {background: url(../variables/2-declaration/4/4/image2-small.jpg) !important;}
+.image-2-declaration-4-5-1 {background: url(../variables/2-declaration/4/5/image1-small.jpg) !important;}
+.image-2-declaration-4-5-2 {background: url(../variables/2-declaration/4/5/image2-small.jpg) !important;}
+.image-2-declaration-4-6-1 {background: url(../variables/2-declaration/4/6/image1-small.jpg) !important;}
+.image-2-declaration-4-6-2 {background: url(../variables/2-declaration/4/6/image2-small.jpg) !important;}
+.image-2-declaration-5-1-1 {background: url(../variables/2-declaration/5/1/image1-small.jpg) !important;}
+.image-2-declaration-5-1-2 {background: url(../variables/2-declaration/5/1/image2-small.jpg) !important;}
+.image-2-declaration-5-2-1 {background: url(../variables/2-declaration/5/2/image1-small.jpg) !important;}
+.image-2-declaration-5-2-2 {background: url(../variables/2-declaration/5/2/image2-small.jpg) !important;}
+.image-2-declaration-5-3-1 {background: url(../variables/2-declaration/5/3/image1-small.jpg) !important;}
+.image-2-declaration-5-3-2 {background: url(../variables/2-declaration/5/3/image2-small.jpg) !important;}
+.image-2-declaration-5-4-1 {background: url(../variables/2-declaration/5/4/image1-small.jpg) !important;}
+.image-2-declaration-5-4-2 {background: url(../variables/2-declaration/5/4/image2-small.jpg) !important;}
+.image-2-declaration-5-5-1 {background: url(../variables/2-declaration/5/5/image1-small.jpg) !important;}
+.image-2-declaration-5-5-2 {background: url(../variables/2-declaration/5/5/image2-small.jpg) !important;}
+.image-2-declaration-6-1-1 {background: url(../variables/2-declaration/6/1/image1-small.jpg) !important;}
+.image-2-declaration-6-1-2 {background: url(../variables/2-declaration/6/1/image2-small.jpg) !important;}
+.image-2-declaration-6-2-1 {background: url(../variables/2-declaration/6/2/image1-small.jpg) !important;}
+.image-2-declaration-6-2-2 {background: url(../variables/2-declaration/6/2/image2-small.jpg) !important;}
+.image-2-declaration-6-3-1 {background: url(../variables/2-declaration/6/3/image1-small.jpg) !important;}
+.image-2-declaration-6-3-2 {background: url(../variables/2-declaration/6/3/image2-small.jpg) !important;}
+.image-2-declaration-6-4-1 {background: url(../variables/2-declaration/6/4/image1-small.jpg) !important;}
+.image-2-declaration-6-4-2 {background: url(../variables/2-declaration/6/4/image2-small.jpg) !important;}
+.image-2-declaration-6-5-1 {background: url(../variables/2-declaration/6/5/image1-small.jpg) !important;}
+.image-2-declaration-6-5-2 {background: url(../variables/2-declaration/6/5/image2-small.jpg) !important;}
+.image-2-declaration-6-6-1 {background: url(../variables/2-declaration/6/6/image1-small.jpg) !important;}
+.image-2-declaration-6-6-2 {background: url(../variables/2-declaration/6/6/image2-small.jpg) !important;}
+
+.image-3-constitution-1-1-1 {background: url(../variables/3-constitution/1/1/image1-small.jpg) !important;}
+.image-3-constitution-1-1-2 {background: url(../variables/3-constitution/1/1/image2-small.jpg) !important;}
+.image-3-constitution-1-2-1 {background: url(../variables/3-constitution/1/2/image1-small.jpg) !important;}
+.image-3-constitution-1-2-2 {background: url(../variables/3-constitution/1/2/image2-small.jpg) !important;}
+.image-3-constitution-1-3-1 {background: url(../variables/3-constitution/1/3/image1-small.jpg) !important;}
+.image-3-constitution-1-3-2 {background: url(../variables/3-constitution/1/3/image2-small.jpg) !important;}
+.image-3-constitution-1-4-1 {background: url(../variables/3-constitution/1/4/image1-small.jpg) !important;}
+.image-3-constitution-1-4-2 {background: url(../variables/3-constitution/1/4/image2-small.jpg) !important;}
+.image-3-constitution-1-5-1 {background: url(../variables/3-constitution/1/5/image1-small.jpg) !important;}
+.image-3-constitution-1-5-2 {background: url(../variables/3-constitution/1/5/image2-small.jpg) !important;}
+.image-3-constitution-2-1-1 {background: url(../variables/3-constitution/2/1/image1-small.jpg) !important;}
+.image-3-constitution-2-1-2 {background: url(../variables/3-constitution/2/1/image2-small.jpg) !important;}
+.image-3-constitution-2-2-1 {background: url(../variables/3-constitution/2/2/image1-small.jpg) !important;}
+.image-3-constitution-2-2-2 {background: url(../variables/3-constitution/2/2/image2-small.jpg) !important;}
+.image-3-constitution-2-3-1 {background: url(../variables/3-constitution/2/3/image1-small.jpg) !important;}
+.image-3-constitution-2-3-2 {background: url(../variables/3-constitution/2/3/image2-small.jpg) !important;}
+.image-3-constitution-2-4-1 {background: url(../variables/3-constitution/2/4/image1-small.jpg) !important;}
+.image-3-constitution-2-4-2 {background: url(../variables/3-constitution/2/4/image2-small.jpg) !important;}
+.image-3-constitution-3-1-1 {background: url(../variables/3-constitution/3/1/image1-small.jpg) !important;}
+.image-3-constitution-3-1-2 {background: url(../variables/3-constitution/3/1/image2-small.jpg) !important;}
+.image-3-constitution-3-2-1 {background: url(../variables/3-constitution/3/2/image1-small.jpg) !important;}
+.image-3-constitution-3-2-2 {background: url(../variables/3-constitution/3/2/image2-small.jpg) !important;}
+.image-3-constitution-3-3-1 {background: url(../variables/3-constitution/3/3/image1-small.jpg) !important;}
+.image-3-constitution-3-3-2 {background: url(../variables/3-constitution/3/3/image2-small.jpg) !important;}
+.image-3-constitution-3-4-1 {background: url(../variables/3-constitution/3/4/image1-small.jpg) !important;}
+.image-3-constitution-3-4-2 {background: url(../variables/3-constitution/3/4/image2-small.jpg) !important;}
+.image-3-constitution-3-5-1 {background: url(../variables/3-constitution/3/5/image1-small.jpg) !important;}
+.image-3-constitution-3-5-2 {background: url(../variables/3-constitution/3/5/image2-small.jpg) !important;}
+.image-3-constitution-3-6-1 {background: url(../variables/3-constitution/3/6/image1-small.jpg) !important;}
+.image-3-constitution-3-6-2 {background: url(../variables/3-constitution/3/6/image2-small.jpg) !important;}
+.image-3-constitution-3-7-1 {background: url(../variables/3-constitution/3/7/image1-small.jpg) !important;}
+.image-3-constitution-3-7-2 {background: url(../variables/3-constitution/3/7/image2-small.jpg) !important;}
+.image-3-constitution-4-1-1 {background: url(../variables/3-constitution/4/1/image1-small.jpg) !important;}
+.image-3-constitution-4-1-2 {background: url(../variables/3-constitution/4/1/image2-small.jpg) !important;}
+.image-3-constitution-4-2-1 {background: url(../variables/3-constitution/4/2/image1-small.jpg) !important;}
+.image-3-constitution-4-2-2 {background: url(../variables/3-constitution/4/2/image2-small.jpg) !important;}
+.image-3-constitution-4-3-1 {background: url(../variables/3-constitution/4/3/image1-small.jpg) !important;}
+.image-3-constitution-4-3-2 {background: url(../variables/3-constitution/4/3/image2-small.jpg) !important;}
+.image-3-constitution-4-4-1 {background: url(../variables/3-constitution/4/4/image1-small.jpg) !important;}
+.image-3-constitution-4-4-2 {background: url(../variables/3-constitution/4/4/image2-small.jpg) !important;}
+.image-3-constitution-4-5-1 {background: url(../variables/3-constitution/4/5/image1-small.jpg) !important;}
+.image-3-constitution-4-5-2 {background: url(../variables/3-constitution/4/5/image2-small.jpg) !important;}
+.image-3-constitution-4-6-1 {background: url(../variables/3-constitution/4/6/image1-small.jpg) !important;}
+.image-3-constitution-4-6-2 {background: url(../variables/3-constitution/4/6/image2-small.jpg) !important;}
+.image-3-constitution-4-7-1 {background: url(../variables/3-constitution/4/7/image1-small.jpg) !important;}
+.image-3-constitution-4-7-2 {background: url(../variables/3-constitution/4/7/image2-small.jpg) !important;}
+.image-3-constitution-5-1-1 {background: url(../variables/3-constitution/5/1/image1-small.jpg) !important;}
+.image-3-constitution-5-1-2 {background: url(../variables/3-constitution/5/1/image2-small.jpg) !important;}
+.image-3-constitution-5-2-1 {background: url(../variables/3-constitution/5/2/image1-small.jpg) !important;}
+.image-3-constitution-5-2-2 {background: url(../variables/3-constitution/5/2/image2-small.jpg) !important;}
+.image-3-constitution-5-3-1 {background: url(../variables/3-constitution/5/3/image1-small.jpg) !important;}
+.image-3-constitution-5-3-2 {background: url(../variables/3-constitution/5/3/image2-small.jpg) !important;}
+.image-3-constitution-5-4-1 {background: url(../variables/3-constitution/5/4/image1-small.jpg) !important;}
+.image-3-constitution-5-4-2 {background: url(../variables/3-constitution/5/4/image2-small.jpg) !important;}
+.image-3-constitution-5-5-1 {background: url(../variables/3-constitution/5/5/image1-small.jpg) !important;}
+.image-3-constitution-5-5-2 {background: url(../variables/3-constitution/5/5/image2-small.jpg) !important;}
+.image-3-constitution-6-1-1 {background: url(../variables/3-constitution/6/1/image1-small.jpg) !important;}
+.image-3-constitution-6-1-2 {background: url(../variables/3-constitution/6/1/image2-small.jpg) !important;}
+.image-3-constitution-6-2-1 {background: url(../variables/3-constitution/6/2/image1-small.jpg) !important;}
+.image-3-constitution-6-2-2 {background: url(../variables/3-constitution/6/2/image2-small.jpg) !important;}
+.image-3-constitution-6-3-1 {background: url(../variables/3-constitution/6/3/image1-small.jpg) !important;}
+.image-3-constitution-6-3-2 {background: url(../variables/3-constitution/6/3/image2-small.jpg) !important;}
+.image-3-constitution-6-4-1 {background: url(../variables/3-constitution/6/4/image1-small.jpg) !important;}
+.image-3-constitution-6-4-2 {background: url(../variables/3-constitution/6/4/image2-small.jpg) !important;}
+.image-3-constitution-6-5-1 {background: url(../variables/3-constitution/6/5/image1-small.jpg) !important;}
+.image-3-constitution-6-5-2 {background: url(../variables/3-constitution/6/5/image2-small.jpg) !important;}
+.image-3-constitution-6-6-1 {background: url(../variables/3-constitution/6/6/image1-small.jpg) !important;}
+.image-3-constitution-6-6-2 {background: url(../variables/3-constitution/6/6/image2-small.jpg) !important;}
+.image-3-constitution-7-1-1 {background: url(../variables/3-constitution/7/1/image1-small.jpg) !important;}
+.image-3-constitution-7-1-2 {background: url(../variables/3-constitution/7/1/image2-small.jpg) !important;}
+.image-3-constitution-7-2-1 {background: url(../variables/3-constitution/7/2/image1-small.jpg) !important;}
+.image-3-constitution-7-2-2 {background: url(../variables/3-constitution/7/2/image2-small.jpg) !important;}
+.image-3-constitution-7-3-1 {background: url(../variables/3-constitution/7/3/image1-small.jpg) !important;}
+.image-3-constitution-7-3-2 {background: url(../variables/3-constitution/7/3/image2-small.jpg) !important;}
+.image-3-constitution-7-4-1 {background: url(../variables/3-constitution/7/4/image1-small.jpg) !important;}
+.image-3-constitution-7-4-2 {background: url(../variables/3-constitution/7/4/image2-small.jpg) !important;}
+.image-3-constitution-7-5-1 {background: url(../variables/3-constitution/7/5/image1-small.jpg) !important;}
+.image-3-constitution-7-5-2 {background: url(../variables/3-constitution/7/5/image2-small.jpg) !important;}
+.image-3-constitution-7-6-1 {background: url(../variables/3-constitution/7/6/image1-small.jpg) !important;}
+.image-3-constitution-7-6-2 {background: url(../variables/3-constitution/7/6/image2-small.jpg) !important;}
+.image-3-constitution-7-7-1 {background: url(../variables/3-constitution/7/7/image1-small.jpg) !important;}
+.image-3-constitution-7-7-2 {background: url(../variables/3-constitution/7/7/image2-small.jpg) !important;}
+.image-3-constitution-8-1-1 {background: url(../variables/3-constitution/8/1/image1-small.jpg) !important;}
+.image-3-constitution-8-1-2 {background: url(../variables/3-constitution/8/1/image2-small.jpg) !important;}
+.image-3-constitution-8-2-1 {background: url(../variables/3-constitution/8/2/image1-small.jpg) !important;}
+.image-3-constitution-8-2-2 {background: url(../variables/3-constitution/8/2/image2-small.jpg) !important;}
+.image-3-constitution-8-3-1 {background: url(../variables/3-constitution/8/3/image1-small.jpg) !important;}
+.image-3-constitution-8-3-2 {background: url(../variables/3-constitution/8/3/image2-small.jpg) !important;}
+.image-3-constitution-8-4-1 {background: url(../variables/3-constitution/8/4/image1-small.jpg) !important;}
+.image-3-constitution-8-4-2 {background: url(../variables/3-constitution/8/4/image2-small.jpg) !important;}
+.image-3-constitution-9-1-1 {background: url(../variables/3-constitution/9/1/image1-small.jpg) !important;}
+.image-3-constitution-9-1-2 {background: url(../variables/3-constitution/9/1/image2-small.jpg) !important;}
+.image-3-constitution-9-2-1 {background: url(../variables/3-constitution/9/2/image1-small.jpg) !important;}
+.image-3-constitution-9-2-2 {background: url(../variables/3-constitution/9/2/image2-small.jpg) !important;}
+.image-3-constitution-9-3-1 {background: url(../variables/3-constitution/9/3/image1-small.jpg) !important;}
+.image-3-constitution-9-3-2 {background: url(../variables/3-constitution/9/3/image2-small.jpg) !important;}
+.image-3-constitution-9-4-1 {background: url(../variables/3-constitution/9/4/image1-small.jpg) !important;}
+.image-3-constitution-9-4-2 {background: url(../variables/3-constitution/9/4/image2-small.jpg) !important;}
 
-.image-1-pledge-1-1-2 {
-	background: url(../variables/1-pledge/1/1/image2-small.jpg) !important;
-}
 
-.image-1-pledge-1-2-1 {
-	background: url(../variables/1-pledge/1/2/image1-small.jpg) !important;
-}
 
-.image-1-pledge-1-2-2 {
-	background: url(../variables/1-pledge/1/2/image2-small.jpg) !important;
-}
-
-.image-1-pledge-1-3-1 {
-	background: url(../variables/1-pledge/1/3/image1-small.jpg) !important;
-}
-
-.image-1-pledge-1-3-2 {
-	background: url(../variables/1-pledge/1/3/image2-small.jpg) !important;
-}
-
-.image-1-pledge-1-4-1 {
-	background: url(../variables/1-pledge/1/4/image1-small.jpg) !important;
-}
-
-.image-1-pledge-1-4-2 {
-	background: url(../variables/1-pledge/1/4/image2-small.jpg) !important;
-}
-
-.image-1-pledge-1-5-1 {
-	background: url(../variables/1-pledge/1/5/image1-small.jpg) !important;
-}
-
-.image-1-pledge-1-5-2 {
-	background: url(../variables/1-pledge/1/5/image2-small.jpg) !important;
-}
-
-.image-1-pledge-2-1-1 {
-	background: url(../variables/1-pledge/2/1/image1-small.jpg) !important;
-}
-
-.image-1-pledge-2-1-2 {
-	background: url(../variables/1-pledge/2/1/image2-small.jpg) !important;
-}
-
-.image-1-pledge-2-2-1 {
-	background: url(../variables/1-pledge/2/2/image1-small.jpg) !important;
-}
-
-.image-1-pledge-2-2-2 {
-	background: url(../variables/1-pledge/2/2/image2-small.jpg) !important;
-}
-
-.image-1-pledge-2-3-1 {
-	background: url(../variables/1-pledge/2/3/image1-small.jpg) !important;
-}
-
-.image-1-pledge-2-3-2 {
-	background: url(../variables/1-pledge/2/3/image2-small.jpg) !important;
-}
-
-.image-1-pledge-2-4-1 {
-	background: url(../variables/1-pledge/2/4/image1-small.jpg) !important;
-}
-
-.image-1-pledge-2-4-2 {
-	background: url(../variables/1-pledge/2/4/image2-small.jpg) !important;
-}
-
-.image-1-pledge-2-5-1 {
-	background: url(../variables/1-pledge/2/5/image1-small.jpg) !important;
-}
-
-.image-1-pledge-2-5-2 {
-	background: url(../variables/1-pledge/2/5/image2-small.jpg) !important;
-}
-
-.image-1-pledge-2-6-1 {
-	background: url(../variables/1-pledge/2/6/image1-small.jpg) !important;
-}
-
-.image-1-pledge-2-6-2 {
-	background: url(../variables/1-pledge/2/6/image2-small.jpg) !important;
-}
-
-.image-1-pledge-2-7-1 {
-	background: url(../variables/1-pledge/2/7/image1-small.jpg) !important;
-}
-
-.image-1-pledge-2-7-2 {
-	background: url(../variables/1-pledge/2/7/image2-small.jpg) !important;
-}
-
-.image-1-pledge-3-1-1 {
-	background: url(../variables/1-pledge/3/1/image1-small.jpg) !important;
-}
-
-.image-1-pledge-3-1-2 {
-	background: url(../variables/1-pledge/3/1/image2-small.jpg) !important;
-}
-
-.image-1-pledge-3-2-1 {
-	background: url(../variables/1-pledge/3/2/image1-small.jpg) !important;
-}
-
-.image-1-pledge-3-2-2 {
-	background: url(../variables/1-pledge/3/2/image2-small.jpg) !important;
-}
-
-.image-1-pledge-3-3-1 {
-	background: url(../variables/1-pledge/3/3/image1-small.jpg) !important;
-}
-
-.image-1-pledge-3-3-2 {
-	background: url(../variables/1-pledge/3/3/image2-small.jpg) !important;
-}
-
-.image-1-pledge-3-4-1 {
-	background: url(../variables/1-pledge/3/4/image1-small.jpg) !important;
-}
-
-.image-1-pledge-3-4-2 {
-	background: url(../variables/1-pledge/3/4/image2-small.jpg) !important;
-}
-
-.image-1-pledge-3-5-1 {
-	background: url(../variables/1-pledge/3/5/image1-small.jpg) !important;
-}
-
-.image-1-pledge-3-5-2 {
-	background: url(../variables/1-pledge/3/5/image2-small.jpg) !important;
-}
-
-.image-1-pledge-4-1-1 {
-	background: url(../variables/1-pledge/4/1/image1-small.jpg) !important;
-}
-
-.image-1-pledge-4-1-2 {
-	background: url(../variables/1-pledge/4/1/image2-small.jpg) !important;
-}
-
-.image-1-pledge-4-2-1 {
-	background: url(../variables/1-pledge/4/2/image1-small.jpg) !important;
-}
-
-.image-1-pledge-4-2-2 {
-	background: url(../variables/1-pledge/4/2/image2-small.jpg) !important;
-}
-
-.image-1-pledge-4-3-1 {
-	background: url(../variables/1-pledge/4/3/image1-small.jpg) !important;
-}
-
-.image-1-pledge-4-3-2 {
-	background: url(../variables/1-pledge/4/3/image2-small.jpg) !important;
-}
-
-.image-1-pledge-5-1-1 {
-	background: url(../variables/1-pledge/5/1/image1-small.jpg) !important;
-}
-
-.image-1-pledge-5-1-2 {
-	background: url(../variables/1-pledge/5/1/image2-small.jpg) !important;
-}
-
-.image-1-pledge-5-2-1 {
-	background: url(../variables/1-pledge/5/2/image1-small.jpg) !important;
-}
-
-.image-1-pledge-5-2-2 {
-	background: url(../variables/1-pledge/5/2/image2-small.jpg) !important;
-}
-
-.image-1-pledge-5-3-1 {
-	background: url(../variables/1-pledge/5/3/image1-small.jpg) !important;
-}
-
-.image-1-pledge-5-3-2 {
-	background: url(../variables/1-pledge/5/3/image2-small.jpg) !important;
-}
-
-.image-1-pledge-5-4-1 {
-	background: url(../variables/1-pledge/5/4/image1-small.jpg) !important;
-}
-
-.image-1-pledge-5-4-2 {
-	background: url(../variables/1-pledge/5/4/image2-small.jpg) !important;
-}
-
-.image-1-pledge-5-5-1 {
-	background: url(../variables/1-pledge/5/5/image1-small.jpg) !important;
-}
-
-.image-1-pledge-5-5-2 {
-	background: url(../variables/1-pledge/5/5/image2-small.jpg) !important;
-}
-
-.image-1-pledge-5-6-1 {
-	background: url(../variables/1-pledge/5/6/image1-small.jpg) !important;
-}
-
-.image-1-pledge-5-6-2 {
-	background: url(../variables/1-pledge/5/6/image2-small.jpg) !important;
-}
-
-.image-1-pledge-5-7-1 {
-	background: url(../variables/1-pledge/5/7/image1-small.jpg) !important;
-}
-
-.image-1-pledge-5-7-2 {
-	background: url(../variables/1-pledge/5/7/image2-small.jpg) !important;
-}
-
-.image-1-pledge-6-1-1 {
-	background: url(../variables/1-pledge/6/1/image1-small.jpg) !important;
-}
-
-.image-1-pledge-6-1-2 {
-	background: url(../variables/1-pledge/6/1/image2-small.jpg) !important;
-}
-
-.image-1-pledge-6-2-1 {
-	background: url(../variables/1-pledge/6/2/image1-small.jpg) !important;
-}
-
-.image-1-pledge-6-2-2 {
-	background: url(../variables/1-pledge/6/2/image2-small.jpg) !important;
-}
-
-.image-1-pledge-6-3-1 {
-	background: url(../variables/1-pledge/6/3/image1-small.jpg) !important;
-}
-
-.image-1-pledge-6-3-2 {
-	background: url(../variables/1-pledge/6/3/image2-small.jpg) !important;
-}
-
-.image-1-pledge-6-4-1 {
-	background: url(../variables/1-pledge/6/4/image1-small.jpg) !important;
-}
-
-.image-1-pledge-6-4-2 {
-	background: url(../variables/1-pledge/6/4/image2-small.jpg) !important;
-}
-
-.image-1-pledge-6-5-1 {
-	background: url(../variables/1-pledge/6/5/image1-small.jpg) !important;
-}
-
-.image-1-pledge-6-5-2 {
-	background: url(../variables/1-pledge/6/5/image2-small.jpg) !important;
-}
-
-.image-1-pledge-6-6-1 {
-	background: url(../variables/1-pledge/6/6/image1-small.jpg) !important;
-}
-
-.image-1-pledge-6-6-2 {
-	background: url(../variables/1-pledge/6/6/image2-small.jpg) !important;
-}
-
-.image-1-pledge-7-1-1 {
-	background: url(../variables/1-pledge/7/1/image1-small.jpg) !important;
-}
-
-.image-1-pledge-7-1-2 {
-	background: url(../variables/1-pledge/7/1/image2-small.jpg) !important;
-}
-
-.image-1-pledge-7-2-1 {
-	background: url(../variables/1-pledge/7/2/image1-small.jpg) !important;
-}
-
-.image-1-pledge-7-2-2 {
-	background: url(../variables/1-pledge/7/2/image2-small.jpg) !important;
-}
-
-.image-1-pledge-7-3-1 {
-	background: url(../variables/1-pledge/7/3/image1-small.jpg) !important;
-}
-
-.image-1-pledge-7-3-2 {
-	background: url(../variables/1-pledge/7/3/image2-small.jpg) !important;
-}
-
-.image-1-pledge-7-4-1 {
-	background: url(../variables/1-pledge/7/4/image1-small.jpg) !important;
-}
-
-.image-1-pledge-7-4-2 {
-	background: url(../variables/1-pledge/7/4/image2-small.jpg) !important;
-}
-
-.image-1-pledge-7-5-1 {
-	background: url(../variables/1-pledge/7/5/image1-small.jpg) !important;
-}
-
-.image-1-pledge-7-5-2 {
-	background: url(../variables/1-pledge/7/5/image2-small.jpg) !important;
-}
-
-.image-1-pledge-8-1-1 {
-	background: url(../variables/1-pledge/8/1/image1-small.jpg) !important;
-}
-
-.image-1-pledge-8-1-2 {
-	background: url(../variables/1-pledge/8/1/image2-small.jpg) !important;
-}
-
-.image-1-pledge-8-2-1 {
-	background: url(../variables/1-pledge/8/2/image1-small.jpg) !important;
-}
-
-.image-1-pledge-8-2-2 {
-	background: url(../variables/1-pledge/8/2/image2-small.jpg) !important;
-}
-
-.image-1-pledge-8-3-1 {
-	background: url(../variables/1-pledge/8/3/image1-small.jpg) !important;
-}
-
-.image-1-pledge-8-3-2 {
-	background: url(../variables/1-pledge/8/3/image2-small.jpg) !important;
-}
-
-.image-1-pledge-8-4-1 {
-	background: url(../variables/1-pledge/8/4/image1-small.jpg) !important;
-}
-
-.image-1-pledge-8-4-2 {
-	background: url(../variables/1-pledge/8/4/image2-small.jpg) !important;
-}
-
-.image-1-pledge-8-5-1 {
-	background: url(../variables/1-pledge/8/5/image1-small.jpg) !important;
-}
-
-.image-1-pledge-8-5-2 {
-	background: url(../variables/1-pledge/8/5/image2-small.jpg) !important;
-}
-
-.image-1-pledge-8-6-1 {
-	background: url(../variables/1-pledge/8/6/image1-small.jpg) !important;
-}
-
-.image-1-pledge-8-6-2 {
-	background: url(../variables/1-pledge/8/6/image2-small.jpg) !important;
-}
 
 .variablesToFront .imgWidth1 {
 	transition: 0.5s;
