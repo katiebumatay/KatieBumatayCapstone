@@ -85,13 +85,7 @@ function animate() {
     else if (titleClicked == false) {
         titleNum = Math.floor(Math.random() * 4) + 1;
         if (titleNum == prevNum || titleNum == prevprevNum) {
-            animate();
-            // if (titleNum == 4) {
-            //     tempNum = 1;
-            // }
-            // else {
-            //     tempNum = titleNum + 1;
-            // }    
+            animate(); 
         }
         else {
             tempNum = titleNum;
@@ -389,9 +383,7 @@ function removeVariables() {
         $(".phraseHeadingContainer").removeClass(phrasePlaceClass).removeClass(phraseWidthClass);;
         $(".caption").removeClass(captionColorClass).removeClass(captionPlaceClass);
         $(".fa-sort-up").removeClass(textColorClass);
-        // if (isMobile == true) {
-            $("#loadImage").removeClass(mobileImgClass);
-        // }
+        $("#loadImage").removeClass(mobileImgClass);
         // $(".readMore, .articleText a").removeClass(darkColorText);
         // $(".readMore").removeClass(textColorClass).removeClass(bgColorClass);
 
@@ -403,7 +395,6 @@ function activateOverlay() {
         $(".section, .sectionTextContainer, .sectionHeader, .sectionText").addClass("hideSectionText");
         $(".exitOverlay").addClass("show");
         $(".variables-container, .variablesOverlay").addClass("show variablesToFront");
-        // $("body").addClass("stopScroll");
         $(".articleBox").addClass("articleBoxPeek");
 }
 
@@ -413,7 +404,6 @@ function deactivateOverlay() {
     $(".section, .sectionTextContainer, .sectionHeader, .sectionText").removeClass("hideSectionText");
     $(".exitOverlay").removeClass("show");
     $(".variables-container, .variablesOverlay").removeClass("show variablesToFront");
-    // $("body").removeClass("stopScroll");
     $(".articleBox").removeClass("articleBoxPeek").removeClass("articleBoxExpand").removeClass("articleBoxBounce");
     $(".variablesOverlay").removeClass("readArticle");
     $(".imgContainer").removeClass(imgWidthTempClass);
@@ -438,13 +428,8 @@ function chooseStory() {
     captionLink = "https://katiebumatay.github.io/and-justice-for-all/variables/" + sec + "/" + phraseNum + "/" + v + "/text.html p:first-child";
     $(".caption").load(captionLink);
     i = Math.floor(Math.random() * 2) + 1;
-    // if (isMobile == false) {
-    //     loadImage.style.setProperty('--myImg-background-image', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image" + i + "-small.jpg");
-    // }
-    // else if (isMobile == true) {
-        mobileImgClass = "image-" + sec + "-" + phraseNum + "-" + v + "-" + i;
-        $("#loadImage").addClass(mobileImgClass);
-    // }
+    mobileImgClass = "image-" + sec + "-" + phraseNum + "-" + v + "-" + i;
+    $("#loadImage").addClass(mobileImgClass);
     
 }
 
@@ -470,8 +455,7 @@ $(document).ready(function() {
 
 
     setInterval('animate()', 500);
-    // setInterval('imgFade1()', 5000);
-    // setInterval('imgFade2()', 5000);
+
 
     var clicked = false;
 
@@ -489,29 +473,15 @@ $(document).ready(function() {
     $(".intro-container").click(function(){
         if (titleClicked == false) {
             titleClicked = true;
-            // $("body").toggleClass("stopScroll");
             $(".aboutSection").toggleClass("showAbout").toggleClass("aboutPointerOn");
             $(".intro-container").toggleClass("clickedTitle");
             $(".intro-bg").toggleClass("clickedTitleBg");
             $(".intro-img").toggleClass("clickedTitleImg");
             $(".title").toggleClass("titleGrow");
-            // $("#img1, #img2").removeClass("fadeInImg").removeClass("fadeOutImg");
             
         }
     });
 
-    // $("#cw").click(function(){
-    //     if ($("#cw").hasClass("warningButtonOn")) {
-    //         $("#cw").removeClass("warningButtonOn");
-    //         document.getElementById("warningText").innerHTML = "";
-    //     }
-    //     else {
-    //         document.getElementById("warningText").innerHTML = "racism, immigration, abortion, slavery, mass incarceration";
-    //         $("#cw").addClass("warningButtonOn");
-    //         $("#tw").removeClass("warningButtonOn");
-    //     }
-        
-    // });
 
     $("#tw").click(function(){
         if ($("#tw").hasClass("warningButtonOn")) {
@@ -521,7 +491,6 @@ $(document).ready(function() {
         else {
             document.getElementById("warningText").innerHTML = "racism, systemic racism, police brutality, sexual assault, mass shootings, LGBTQIA* discrimination, domestic violence, war, intergenerational trauma";
             $("#tw").addClass("warningButtonOn");
-            // $("#cw").removeClass("warningButtonOn");
         }
         
     });
@@ -612,23 +581,6 @@ $(document).ready(function() {
         $(".otherMenuItems").toggleClass("showMenuItems");
     });
 
-    // $(".smallTitle").click(function() {
-
-    //     titleClicked = false;
-    //     $(".intro-container").toggleClass("clickedTitle");
-    //     $(".intro-bg").toggleClass("clickedTitleImg");
-    //     $(".title").toggleClass("titleGrow");
-    //     $(".aboutSection").toggleClass("showAbout");
-    //     $("body").toggleClass("stopScroll");
-    //     $("#img1").addClass("fadeInImg");
-    //     $("#img2").addClass("fadeOutImg");
-
-    //     $('html,body').animate({
-    //     scrollTop: $("body").offset().top});
-    //     $('html,body').animate({
-    //     scrollLeft: $("body").offset().left});
-    // });
-
     $(".smallTitle, #goToAbout, .aboutButtonMobile").click(function() {
 
         $('html,body').animate({
@@ -666,14 +618,12 @@ $(document).ready(function() {
 
         addVariables();
         $(".variables-container").toggleClass("show");
-        // $("body").toggleClass("stopScroll");
     });
 
 
     $(".phrase").mouseleave(function(){
         if (clicked == false) {
             $(".variables-container").toggleClass("show");
-            // $("body").toggleClass("stopScroll");
             removeVariables();
         }
     });
@@ -681,14 +631,12 @@ $(document).ready(function() {
     $(".phrase").click(function(){
         clicked = true;
         activateOverlay();
-        // if (isMobile == false) {
-            if (peekTimerOn == false) {
-                console.log("activate peekTimer");
-                peekTimer = setInterval('articlePeekAnimate()', 1000);
-                peekTimerOn = true;
-            }
+        if (peekTimerOn == false) {
+            console.log("activate peekTimer");
+            peekTimer = setInterval('articlePeekAnimate()', 1000);
+            peekTimerOn = true;
+        }
             
-        // }
 
     });
 
@@ -696,30 +644,26 @@ $(document).ready(function() {
         clicked = false;
         removeVariables();
         deactivateOverlay();
-        // if (isMobile == false) {
-            if (peekTimerOn == true) {
-                console.log("clear peekTimer");
-                clearInterval(peekTimer);
-                peekTimerOn = false;
-            }
-        // }
+        if (peekTimerOn == true) {
+            console.log("clear peekTimer");
+            clearInterval(peekTimer);
+            peekTimerOn = false;
+        }
 
         $(".articleContainer").scrollTop(0);
     });
 
     $(".articleBox").click(function(){
-        // if (isMobile == false) {
-            if(peekTimerOn == true) {
-                    console.log("clear peekTimer");
-                    clearInterval(peekTimer);
-                    peekTimerOn = false;
-            }
-            else if (peekTimerOn == false) {
-                console.log("activate peekTimer");
-                peekTimer = setInterval('articlePeekAnimate()', 1000);
-                peekTimerOn = true;
-            }
-        // }
+        if(peekTimerOn == true) {
+                console.log("clear peekTimer");
+                clearInterval(peekTimer);
+                peekTimerOn = false;
+        }
+        else if (peekTimerOn == false) {
+            console.log("activate peekTimer");
+            peekTimer = setInterval('articlePeekAnimate()', 1000);
+            peekTimerOn = true;
+        }
         $(".articleBox").toggleClass("articleBoxExpand");
         $(".variablesOverlay").toggleClass("readArticle");
         tempToggleVariables();
