@@ -158,6 +158,10 @@ $(document).ready(function() {
         $(".previous").addClass("hideArrow");
         $(".next").removeClass("hideArrow");
         clearImages();
+        listItemClicked = false;
+        $(prevClicked).removeClass("thisLiClicked").removeClass("thisLiHover");
+        hideStuff();
+        $(".articleContainer").scrollTop(0);
 
     });
 
@@ -168,6 +172,10 @@ $(document).ready(function() {
         $(".previous").removeClass("hideArrow");
         $(".next").removeClass("hideArrow");
         clearImages();
+        listItemClicked = false;
+        $(prevClicked).removeClass("thisLiClicked").removeClass("thisLiHover");
+        hideStuff();
+        $(".articleContainer").scrollTop(0);
     });
 
      $("#constitutionBar").click(function(){
@@ -177,6 +185,10 @@ $(document).ready(function() {
         $(".previous").removeClass("hideArrow");
         $(".next").addClass("hideArrow");
         clearImages();
+        listItemClicked = false;
+        $(prevClicked).removeClass("thisLiClicked").removeClass("thisLiHover");
+        hideStuff();
+        $(".articleContainer").scrollTop(0);
     });
 
      $("li").mouseover(function() {
@@ -204,12 +216,10 @@ $(document).ready(function() {
                 $(".itemsBox").addClass("itemsBoxShow");
                 $(".exitOverlay").addClass("exitOverlayShow");
             }
-            // showStuff();
         }
         else if (listItemClicked == true && prevClicked == this) {
             listItemClicked = false;
             $(this).removeClass("thisLiClicked");
-            // hideStuff();
             $(".articleContainer").scrollTop(0);
         }
      });
@@ -217,7 +227,6 @@ $(document).ready(function() {
      $(".exitOverlay").click(function() {
             listItemClicked = false;
             $(prevClicked).removeClass("thisLiClicked").removeClass("thisLiHover");
-            // hideStuff();
             $(".articleContainer").scrollTop(0);
             $(".next, .previous").removeClass("noArrow");
             $(".itemsBox").removeClass("itemsBoxShow");
