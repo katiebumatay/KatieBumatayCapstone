@@ -41,8 +41,6 @@ function generateArticle() {
         check1(); check2(); check3();
         articleLink = "https://katiebumatay.github.io/and-justice-for-all/variables/" + sec + "/" + phraseNum + "/" + v + "/text.html";
         if (checkV1 == true) {
-            // pledgeImg1.style.setProperty('--pledge-background-image1', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image1-small.jpg");
-            // pledgeImg2.style.setProperty('--pledge-background-image2', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image2-small.jpg");
             pledgeImgClass1 = "image-" + sec + "-" + phraseNum + "-" + v + "-1"
             pledgeImgClass2 = "image-" + sec + "-" + phraseNum + "-" + v + "-2";
             $("#pledgeImg1").addClass(pledgeImgClass1);
@@ -51,8 +49,6 @@ function generateArticle() {
         }
 
         else if (checkV2 == true) {
-            // declarationImg1.style.setProperty('--declaration-background-image1', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image1-small.jpg");
-            // declarationImg2.style.setProperty('--declaration-background-image2', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image2-small.jpg");
             decImgClass1 = "image-" + sec + "-" + phraseNum + "-" + v + "-1"
             decImgClass2 = "image-" + sec + "-" + phraseNum + "-" + v + "-2";
             $("#declarationImg1").addClass(decImgClass1);
@@ -61,8 +57,6 @@ function generateArticle() {
         }
 
         else if (checkV3 == true) {
-            // constitutionImg1.style.setProperty('--constitution-background-image1', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image1-small.jpg");
-            // constitutionImg2.style.setProperty('--constitution-background-image2', "url(../variables/" + sec + "/" + phraseNum + "/" + v + "/image2-small.jpg");
             constImgClass1 = "image-" + sec + "-" + phraseNum + "-" + v + "-1"
             constImgClass2 = "image-" + sec + "-" + phraseNum + "-" + v + "-2";
             $("#constitutionImg1").addClass(constImgClass1);
@@ -71,8 +65,6 @@ function generateArticle() {
         }
 
     }
-
-    // $(".imgContainer").addClass("loadImage");
 }
 
 function goToOriginalArticle() {
@@ -98,10 +90,6 @@ function clearImages() {
 
 
 $(document).ready(function() {
-
-    // checkV1();
-    // checkV2();
-    // checkV3();
 
     checkMobile();
 
@@ -236,17 +224,6 @@ $(document).ready(function() {
             $(".exitOverlay").removeClass("exitOverlayShow");
             clearImages();
      });
-
-     // $(".fas").click(function() {
-     //    // if (listItemClicked == true) {
-     //        listItemClicked = false;
-     //        $(prevClicked).removeClass("thisLiClicked").removeClass("thisLiHover");
-     //        hideStuff();
-     //        $(".articleContainer").scrollTop(0);
-     //    // }
-     // });
-
-
 
 
     $(".1-pledge-1-1").mouseenter(function(){ sec = "1-pledge"; phraseNum = "1"; v = 1; generateArticle();});
