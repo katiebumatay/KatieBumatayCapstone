@@ -1,14 +1,4 @@
-/*:root {
-	--pledge-background-image1: url();
-	--pledge-background-image2: url();
-	--declaration-background-image1: url();
-	--declaration-background-image2: url();
-	--constitution-background-image1: url();
-	--constitution-background-image2: url();
-}*/
-
 html, body{
-	/*direction: ltr;*/
 	width: 100%;
 	height:100%;
 	margin: 0;
@@ -20,7 +10,6 @@ html, body{
 	line-height: 1.3em;
 	background-color: #f9f9f9;
 	overflow: hidden;
-/*	min-width: 880px;*/
 }
 
 a {
@@ -34,7 +23,6 @@ a {
 	top: 14px;
 	left: 20px;
 	margin: 0;
-	/*z-index: 11; ---- stays on clicked overlay ----- */
 	z-index: 12;
 	cursor: pointer;
 	background-color: transparent;
@@ -52,7 +40,6 @@ h3 {
 .header {
 	z-index: 10;
 	padding-left: 40px;
-/*	padding: 10px;*/
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -66,28 +53,6 @@ h1 {
 	margin-right: 1em;
 }
 
-/*.itemsBox {
-	z-index: 50;
-	position: fixed;
-	right: 70px;
-	top: 70px;
-	width: 55vw;
-}
-
-.images-container {
-	position: absolute;
-	width: 100%;
-	background-color: blue;
-	height: 40vh;
-}
-
-.articleContainer {
-	box-sizing: border-box;
-	background-color: red;
-	position: absolute;
-	width: 100%;
-}*/
-
 
 .archive-container {
 	position: absolute;
@@ -95,7 +60,6 @@ h1 {
 	margin: 0;
 	width: 350vw;
 	height: 100vh;
-	/*background-color: #f9f9f9;*/
 	background-color: transparent;
 	opacity: 1;
 	transition: 2s;
@@ -103,7 +67,6 @@ h1 {
 	left: 0;
 	overflow: hidden;
 	padding: 0;
-	/*direction: rtl;*/
 }
 
 .view1 {
@@ -122,7 +85,6 @@ h1 {
 	display: inline-block;
 	position: relative;
 	float: left;
-	/*overflow-y: scroll;*/
 	overflow: hidden;
 	width: calc(100vw - 80px);
 	height: calc(100vh - 100px);
@@ -134,16 +96,13 @@ h1 {
 }
 
 .itemsBox {
-	/*direction: ltr;*/
 	background-color: #dddddd;
 	z-index: 50;
 	position: fixed;
 	float: right;
 	margin-left: 365px;
 	margin-top: 0px;
-	/*width: inherit;*/
 	width: calc(100vw - 445px);
-	/*width: 100%;*/
 	height: calc(100vh - 100px);
 }
 
@@ -152,49 +111,20 @@ h1 {
 }
 
 .images-container {
-	/*position: absolute;*/
 	width: 100%;
-	/*background-color: #bbbbbb;*/
 	height: 50%;
 	opacity: 0;
 	transition: 0.5s;
 }
 
-/*#pledgeImg1{
-	background-image: var(--pledge-background-image1);
-}
-
-#pledgeImg2{
-	background-image: var(--pledge-background-image2);
-}
-
-#declarationImg1{
-	background-image: var(--declaration-background-image1);
-}
-
-#declarationImg2{
-	background-image: var(--declaration-background-image2);
-}
-
-#constitutionImg1{
-	background-image: var(--constitution-background-image1);
-}
-
-#constitutionImg2{
-	background-image: var(--constitution-background-image2);
-}
-*/
 .articleContainer {
-	/*position: absolute;*/
 	box-sizing: border-box;
 	display: inline-block;
-	/*background-color: #bbbbbb;*/
 	width: 100%;
 	height: 50%;
 	overflow: scroll;
 	opacity: 0;
 	transition: 0.5s;
-	/*padding-top: 30px;*/
 }
 
 .articleText {
@@ -223,17 +153,6 @@ h1 {
 	transition: 0.5s;
 }
 
-/*.lcTop {
-	z-index: 10;
-	width: 28%;
-	position: fixed;
-	margin-top: -30px;
-	margin-left: 30px;
-	padding-top: 30px;
-	background-color: #eeeeee;
-
-}*/
-
 .lcWrapper {
 	margin-top: 35px;
 	height: 100%;
@@ -242,19 +161,14 @@ h1 {
 }
 
 .list-container {
-	/*direction: ltr;*/
 	width: 310px;
 	position: relative;
 	float: left;
-	/*width: 85%;*/
 	text-align: left;
 	padding: 30px;
 	padding-right: 0px;
 	padding-top: 0;
 	overflow: scroll;
-	/*top:30px;*/
-	/*margin-left: 50px;*/
-	/*transition: 0.8s;*/
 }
 
 .fas:hover {
@@ -266,14 +180,11 @@ h1 {
 	position: fixed;
 	right: 0;
 	padding: 100px 25px 0px 100px;
-	/*top: calc(30vh + 14pt);*/
 	top: calc(50vh - 90pt);
 	cursor: pointer;
-	/*color: black;*/
 	color: #bbbbbb;
 	pointer-events: auto;
 	z-index: 10;
-	/*visibility: visible;*/
 	opacity: 1;
 }
 
@@ -281,10 +192,8 @@ h1 {
 	position: fixed;
 	left: 0;
 	padding: 100px 100px 0px 25px;
-	/*top: calc(30vh + 14pt);*/
 	top: calc(50vh - 90pt);
 	cursor: pointer;
-	/*color: black;*/
 	color: #bbbbbb;
 	pointer-events: auto;
 	z-index: 10;
@@ -299,8 +208,6 @@ h1 {
 
 
 .fas {
-	/*position: absolute;
-	bottom: 0;*/
 	font-size: 30pt;
 }
 
@@ -320,13 +227,10 @@ h1 {
 	width: calc(100% - 80px);
 	height: 5px;
 	position: fixed;
-	/*background-color: yellow;*/
 	left: 40px;
 	bottom: 40px;
 	opacity: 1;
 	z-index: 20;
-/*	transition-delay: 1s;*/
-	/*transition-delay: 0.5s;*/
 }
 
 
@@ -373,13 +277,8 @@ li {
 }
 
 .thisLiHover {
-	/*font-weight: bold;*/
 	color: black;
 	cursor: pointer;
-	/*border-left: 2px solid;*/
-	/*padding-left: 20px;*/
-	/*transform: translateX(20px);*/
-	/*font-style: italic;*/
 }
 
 .thisLiClicked {
@@ -388,22 +287,11 @@ li {
 	cursor: pointer;
 }
 
-/*li: active {
-	font-style: italic;
-}
-*/
-
 
 h2 {
 	font-family: Baskerville, serif;
 	font-size: 14pt;
 }
-
-/*a {
-	margin-bottom: 100px;
-}
-*/
-
 
 .image-1-pledge-1-1-1 {background: url(../variables/1-pledge/1/1/image1-small.jpg) !important;}
 .image-1-pledge-1-1-2 {background: url(../variables/1-pledge/1/1/image2-small.jpg) !important;}
@@ -672,7 +560,6 @@ h2 {
 	height: calc(100% - 10px);
 	margin-left: 10px;
 	margin-top: 10px;
-	/*transform: scale(0.95, 0.95);*/
 	float: left;
 	background: transparent;
 	background-repeat: no-repeat !important;
@@ -704,14 +591,6 @@ h2 {
 		margin: 30px 30px 70px 30px;
 	}
 
-	/*.itemsBox {
-		margin-left: 0;
-		margin-right: 0;
-		margin-top: 0;
-		width: calc(100vw - 60px);
-		height: calc(60vh);
-		border-bottom: #212121 solid 3px;
-	}*/
 	.itemsBox {
 		position: absolute;
 		margin-left: 0;
@@ -754,14 +633,6 @@ h2 {
 		line-height: 16pt;
 	}
 
-	/*.lcWrapper {
-		position: relative;
-		margin-top: 60vh;
-		height: calc(30vh - 10px);
-		width: calc(100vw - 60px);
-		overflow: scroll;
-	}*/
-
 	.lcWrapper {
 		position: relative;
 		margin-top: 60px;
@@ -785,8 +656,6 @@ h2 {
 	.articleContainer {
 		height: 55%;
 	}
-
-
 
 	.next {
 		padding: 20px 20px 20px 0px;
@@ -839,10 +708,6 @@ h2 {
 		margin-right: 5%;
 	}
 
-	/*.phrase {
-		margin-bottom: 30px;
-	}*/
-
 	ul {
 		list-style: none;
 		padding-left: 15px;
@@ -855,7 +720,6 @@ h2 {
 	}
 
 	.thisLiHover {
-		/*font-weight: bold;*/
 		color: black;
 		cursor: pointer;
 	}
