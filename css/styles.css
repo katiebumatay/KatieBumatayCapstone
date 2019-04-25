@@ -213,6 +213,11 @@ h3 {
 	pointer-events: none;
 }
 
+.variables-container-2 {
+	transform: scale(0.6, 0.6) translateX(-30vw);
+	overflow: visible;
+}
+
 .variablesOverlay {
 	cursor: default;
 	position: relative;
@@ -1588,7 +1593,8 @@ h2 {
 .image-3-constitution-9-4-1 {background: url(../variables/3-constitution/9/4/image1-small.jpg) !important;}
 .image-3-constitution-9-4-2 {background: url(../variables/3-constitution/9/4/image2-small.jpg) !important;}
 
-
+.image-4-designer-1-1-1 {background: url(../variables/4-designer/1/1/image1-small.jpg) !important;}
+.image-4-designer-1-1-2 {background: url(../variables/4-designer/1/1/image2-small.jpg) !important;}
 
 .variablesToFront .imgWidth1 {
 	transition: 0.5s;

@@ -602,6 +602,12 @@ $(document).ready(function() {
         scrollLeft: $(".designer-container").offset().left});
         $(".bar").removeClass("barShow");
         viewDesigner = true;
+        $(".variables-container").addClass("variables-container-2");
+    });
+
+    $("#scroll-up").click(function(){
+        viewDesigner = false;
+        $(".variables-container").removeClass("variables-container-2");
     });
 
 
@@ -645,12 +651,14 @@ $(document).ready(function() {
     });
 
     $(".phrase").click(function(){
-        clicked = true;
-        activateOverlay();
-        if (peekTimerOn == false) {
-            console.log("activate peekTimer");
-            peekTimer = setInterval('articlePeekAnimate()', 1000);
-            peekTimerOn = true;
+        if (viewDesigner == false) {
+            clicked = true;
+            activateOverlay();
+            if (peekTimerOn == false) {
+                console.log("activate peekTimer");
+                peekTimer = setInterval('articlePeekAnimate()', 1000);
+                peekTimerOn = true;
+            }
         }
             
 
