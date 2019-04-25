@@ -886,7 +886,7 @@ $(document).ready(function() {
             
             sec = "4-designer";
             phraseNum = "1";
-            numOptions = 1;
+            numOptions = 15;
             chooseStory();
         });
 
