@@ -65,6 +65,8 @@
 
     var firstTime = true;
 
+    var viewDesigner = false;
+
 
 function checkMobile(){
     if ($(".variablesOverlay").css("top") == "30px" ){
@@ -599,7 +601,9 @@ $(document).ready(function() {
         $('html,body').animate({
         scrollLeft: $(".designer-container").offset().left});
         $(".bar").removeClass("barShow");
+        viewDesigner = true;
     });
+
 
     $(".aboutButtonMobile").click(function() {
 
@@ -616,7 +620,9 @@ $(document).ready(function() {
     });
 
     $(".phrase").hover(function(){
+        if (viewDesigner == false) {
             $(this).toggleClass("blurtext3");
+        }
         
     });
 
