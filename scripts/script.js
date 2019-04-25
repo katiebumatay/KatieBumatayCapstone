@@ -507,7 +507,6 @@ $(document).ready(function() {
             }
             
             $(".info").addClass("infoShow");
-            $(".bar").addClass("barShow");
             $("#pledgeBar").addClass("selected");
         }
         else {
@@ -520,6 +519,7 @@ $(document).ready(function() {
         }
         firstTime = false;
         $(".menuMobile").addClass("menuMobileBack");
+        $(".bar").addClass("barShow");
     });
 
     $(".info").click(function(){
@@ -588,7 +588,17 @@ $(document).ready(function() {
         $('html,body').animate({
         scrollLeft: $("body").offset().left});
 
+        $(".bar").removeClass("barShow");
         $(".menuMobile").removeClass("menuMobileBack");
+    });
+
+    $("#goToDesigner").click(function() {
+
+        $('html,body').animate({
+        scrollTop: $(".designer-container").offset().top});
+        $('html,body').animate({
+        scrollLeft: $(".designer-container").offset().left});
+        $(".bar").removeClass("barShow");
     });
 
     $(".aboutButtonMobile").click(function() {
@@ -852,6 +862,14 @@ $(document).ready(function() {
             sec = "3-constitution";
             phraseNum = "9";
             numOptions = 4;
+            chooseStory();
+        });
+
+        $(".designer1").mouseenter(function(){
+            
+            sec = "4-designer";
+            phraseNum = "1";
+            numOptions = 1;
             chooseStory();
         });
 

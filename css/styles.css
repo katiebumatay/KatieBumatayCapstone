@@ -72,6 +72,7 @@ html, body{
 }
 
 .barShow {
+	transition-delay: 1s;
 	transition: 1s;
 	opacity: 1;
 }
@@ -610,6 +611,10 @@ h1 {
 	width: 315.5px;
 }
 
+#aboutDesigner {
+	margin-top: 45vh;
+}
+
 .aboutHeader {
 	font-size: 16pt;
 	font-weight: bold;
@@ -685,6 +690,10 @@ h2 {
 	cursor: pointer;
 	left: 55%;
 	color: #bbbbbb;
+}
+
+#scroll-up {
+	top: 30px;
 }
 
 .aboutPointerOn {
@@ -821,6 +830,19 @@ h2 {
 	transition-timing-function: ease-out;
 	visibility: visible;
 }
+
+.designer-container {
+	float: left;
+	display: inline-block;
+	position: absolute;
+	margin-top: 100vh;
+	height: 100vh;
+	width: 100vw;
+/*	top: 0;
+	left: 0;*/
+}
+
+
 
 
 .mix1 {
