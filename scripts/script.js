@@ -7,7 +7,7 @@
     var iL; var imgLeftClass;
     var imgPlaceClass;
 
-    var mobileImgClass;
+    var imgChoiceClass;
 
     var pT; var phraseTopClass;
     var pL; var phraseLeftClass;
@@ -385,7 +385,7 @@ function removeVariables() {
         $(".phraseHeadingContainer").removeClass(phrasePlaceClass).removeClass(phraseWidthClass);;
         $(".caption").removeClass(captionColorClass).removeClass(captionPlaceClass);
         $(".fa-sort-up").removeClass(textColorClass);
-        $("#loadImage").removeClass(mobileImgClass);
+        $("#loadImage").removeClass(imgChoiceClass);
         // $(".readMore, .articleText a").removeClass(darkColorText);
         // $(".readMore").removeClass(textColorClass).removeClass(bgColorClass);
 
@@ -430,8 +430,8 @@ function chooseStory() {
     captionLink = "https://katiebumatay.github.io/and-justice-for-all/variables/" + sec + "/" + phraseNum + "/" + v + "/text.html p:first-child";
     $(".caption").load(captionLink);
     i = Math.floor(Math.random() * 2) + 1;
-    mobileImgClass = "image-" + sec + "-" + phraseNum + "-" + v + "-" + i;
-    $("#loadImage").addClass(mobileImgClass);
+    imgChoiceClass = "image-" + sec + "-" + phraseNum + "-" + v + "-" + i;
+    $("#loadImage").addClass(imgChoiceClass);
     
 }
 
