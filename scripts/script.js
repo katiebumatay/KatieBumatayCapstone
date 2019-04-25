@@ -430,6 +430,9 @@ function chooseStory() {
     captionLink = "https://katiebumatay.github.io/and-justice-for-all/variables/" + sec + "/" + phraseNum + "/" + v + "/text.html p:first-child";
     $(".caption").load(captionLink);
     i = Math.floor(Math.random() * 2) + 1;
+    if (viewDesigner == true) {
+        i = 1;
+    }
     imgChoiceClass = "image-" + sec + "-" + phraseNum + "-" + v + "-" + i;
     $("#loadImage").addClass(imgChoiceClass);
     
