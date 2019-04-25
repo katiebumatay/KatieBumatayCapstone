@@ -525,6 +525,8 @@ $(document).ready(function() {
         firstTime = false;
         $(".menuMobile").addClass("menuMobileBack");
         $(".bar").addClass("barShow");
+        viewDesigner = false;
+        $(".variables-container").removeClass("variables-container-2");
     });
 
     $(".info").click(function(){
@@ -606,11 +608,6 @@ $(document).ready(function() {
         $(".bar").removeClass("barShow");
         viewDesigner = true;
         $(".variables-container").addClass("variables-container-2");
-    });
-
-    $("#scroll-up").click(function(){
-        viewDesigner = false;
-        $(".variables-container").removeClass("variables-container-2");
     });
 
 
