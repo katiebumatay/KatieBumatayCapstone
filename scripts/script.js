@@ -75,10 +75,6 @@ function checkMobile(){
     console.log(isMobile);
 };
 
-function animatePhrase() {
-    console.log("animate phrase");
-    $(".sectionText .phrase").toggleClass("blurText");
-};
 
 function animate() {
     if (titleHover == true) {
